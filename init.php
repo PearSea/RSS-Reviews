@@ -2,7 +2,7 @@
 /*
 Plugin Name: RSS Reviews
 Plugin URI: https://github.com/PearSea/RSS-Reviews
-Description: RSS Revews. Use this plugin to receive your latests reviews from sites like TripAdvisor.
+Description: Use this plugin to receive your latests reviews from sites like TripAdvisor.
 Version: 1.2 
 Author: Gregory Pearcey
 Author URI: http://gregorypearcey.com/
@@ -56,7 +56,7 @@ class rss_reviews extends WP_Widget {
 	</p>
 	
 	<p>
-	<label for="<?php echo $this->get_field_id('text'); ?>"><?php _e('Feed43 URL:', 'rss_reviews'); ?></label>
+	<label for="<?php echo $this->get_field_id('text'); ?>"><?php _e('RSS Feed URL:', 'rss_reviews'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('text'); ?>" name="<?php echo $this->get_field_name('text'); ?>" type="text" value="<?php echo $text; ?>" />
 	</p>
 	
