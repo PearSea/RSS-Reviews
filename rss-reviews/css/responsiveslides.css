@@ -1,15 +1,17 @@
 /*! http://responsiveslides.com v1.54 by @viljamis */
 
-ul.nobullets{
-    list-style-type: none !important;
+div ul.nobullets, ul.nobullets{
+    list-style-type: none;
 }
 
 .rslides a img, .rslides .partnerRvw, .rslides sub, ul.nobullets sub{
 	display: none;
 }
 
-.nobullets li{
+div ul.nobullets li, div ul.nobullets, .nobullets li{
 	padding-top: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 .rslides .trip_quote_entry{
