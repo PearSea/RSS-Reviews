@@ -3,7 +3,7 @@
 Plugin Name: RSS Reviews
 Plugin URI: https://github.com/PearSea/RSS-Reviews
 Description: Use this plugin to receive your latest reviews using an RSS feed from sites like TripAdvisor.
-Version: 1.2 
+Version: 1.2.1
 Author: Gregory Pearcey
 Author URI: http://gregorypearcey.com/
 License: Creative Commons Attribution-ShareAlike 

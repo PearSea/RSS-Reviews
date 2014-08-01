@@ -1,7 +1,7 @@
 /*! http://responsiveslides.com v1.54 by @viljamis */
 
 div ul.nobullets, ul.nobullets{
-    list-style-type: none;
+    list-style-type: none !important;
 }
 
 .rslides a img, .rslides .partnerRvw, .rslides sub, ul.nobullets sub{
